@@ -1,0 +1,61 @@
+h1 {
+    margin-left: 530px;
+    margin-top: 0px;
+}
+
+#paragraph2 {
+    visibility: hidden;
+    margin-left: 585px;
+    border-radius: 50%;
+    box-shadow: 5px 10px;
+
+}
+
+#paragraph2:hover {
+    box-shadow: 2px 5px;
+}
+
+#paragraph2:active {
+    box-shadow: 0px 0px;
+}
+
+#container {
+    display: flex;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-color: crimson;
+    border-style: solid;
+    cursor: pointer;
+    /*margin: 5px;*/
+    /* Adds some spacing between the boxes */
+}
+
+#paragraph {
+    align-content: center;
+    text-align: center;
+}
+
+#paragraph1 {
+    text-align: center;
+}
+
+body {
+    background-color: burlywood;
+}
